@@ -1,9 +1,11 @@
+#programa que informa a média de idade do grupo, a idade e nome do 
+#homem mais velho e quantas mulheres tem com menos de 20 anos
 somaidade = 0
 mediaidade = 0
 maioridadehomem = 0
 nomevelho=''
 totmulher20 = 0
-for p in range(1,5):
+for p in range(1,11):
     print('------- {} PESSOA -------'.format(p))
     nome=input('Nome:').strip()
     idade=int(input('Idade:'))
